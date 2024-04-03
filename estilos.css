@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+}
+
+body {
+  background-image: url("https://www.cientifiko.com/wp-content/uploads/2021/05/Tipos-de-flores-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(218, 189, 244);
+}
+
+.navbar {
+  background-color: rgb(196, 244, 244) !important;
+}

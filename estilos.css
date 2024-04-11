@@ -1,8 +1,10 @@
 h1 {
   text-align: center;
+  padding: 0.7%;
 }
 h2 {
   text-align: center;
+  padding: 0.5%;
 }
 h3 {
   text-align: center;
@@ -11,9 +13,13 @@ h4 {
   text-align: center;
 }
 footer {
-  position: fixed;
-  bottom: 10%;
-  left: 50%;
+  position: absolute;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 12px;
+  border: 1px solid #87a6f6;
+  background-color: #ef7abe;
+  cursor: pointer;
 }
 
 body {
@@ -29,4 +35,39 @@ header {
 
 .navbar {
   background-color: rgb(196, 244, 244) !important;
+}
+form,
+footer {
+  justify-content: center;
+  align-items: center;
+  text-align-last: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align-last: center;
+  width: auto;
+}
+.form-group > input,
+select {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+  border: 2px solid #f6a1ec;
+}
+
+footer {
+  position: relative;
+}
+
+.btn-registro {
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: 1px solid #42dcea;
+  background-color: #8f5aa7;
+  cursor: pointer;
 }

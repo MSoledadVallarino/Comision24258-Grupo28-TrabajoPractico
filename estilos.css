@@ -1,10 +1,17 @@
 h1 {
   text-align: center;
-  padding: 0.7%;
+  font-family: lato;
+  font-style: oblique;
+  font-size: 48px;
+  padding: 0, 7%;
 }
 h2 {
   text-align: center;
   padding: 0.5%;
+  font-family: lato;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 300;
 }
 h3 {
   text-align: center;
@@ -13,6 +20,7 @@ h4 {
   text-align: center;
 }
 footer {
+  font-family: lato-black;
   position: absolute;
   padding: 1%;
   margin: 1%;
@@ -22,19 +30,25 @@ footer {
   cursor: pointer;
 }
 
-body {
-  background-image: url("https://www.cientifiko.com/wp-content/uploads/2021/05/Tipos-de-flores-3.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.banner {
+  background-image: url("./imagenes/pexels-nietjuh-1906439.jpg");
   background-size: cover;
+  background-position: center;
+  height: 50vh;
 }
 
-header {
-  background-color: rgb(218, 189, 244);
+#desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
 }
-
 .navbar {
-  background-color: rgb(196, 244, 244) !important;
+  font-family: lato-black-italic;
+  font-size: 24px;
+  background-color: #e1eee1 !important;
 }
 form,
 footer {
@@ -70,4 +84,9 @@ footer {
   border: 1px solid #42dcea;
   background-color: #8f5aa7;
   cursor: pointer;
+}
+
+.carousel-inner {
+  width: 450px;
+  height: 550px;
 }

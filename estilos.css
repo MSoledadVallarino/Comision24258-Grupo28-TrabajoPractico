@@ -90,3 +90,31 @@ footer {
   width: 450px;
   height: 550px;
 }
+
+.tienda::before {
+  content: "";
+  background-image: url("./logoVivero.png");
+  background-size: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.35;
+}
+
+#search {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #bd7ee2;
+  border-radius: 5px;
+  background-color: #e5bcfc;
+}
+
+input[type="submit"] {
+  background-color: #9a70b0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

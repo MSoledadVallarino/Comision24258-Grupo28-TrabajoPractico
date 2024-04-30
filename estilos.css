@@ -131,3 +131,9 @@ input[type="submit"] {
 .btn-primary {
   background-color: #9a70b0 !important;
 }
+
+#search {
+  margin: 0.5%;
+  font-family: lato;
+  font-style: italic;
+}

@@ -71,6 +71,7 @@ select {
   margin: 10px 0;
   border-radius: 15px;
   border: 2px solid #f6a1ec;
+  background-color: #e0b2fb;
 }
 
 footer {
@@ -82,13 +83,8 @@ footer {
   margin: 15px 0;
   border-radius: 12px;
   border: 1px solid #42dcea;
-  background-color: #8f5aa7;
+  background-color: #e3b7f7;
   cursor: pointer;
-}
-
-.carousel-inner {
-  width: 450px;
-  height: 550px;
 }
 
 .tienda::before {
@@ -100,7 +96,7 @@ footer {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.35;
+  opacity: 0.2;
 }
 
 #search {
@@ -136,4 +132,56 @@ input[type="submit"] {
   margin: 0.5%;
   font-family: lato;
   font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-around;
+  column-gap: 10px;
+  padding: 10px;
+  background-color: #8eba8d;
+  grid-template-columns: auto auto auto;
+}
+
+.nosotros-container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "vivero vivero vivero" "foto1"
+    "foto2" "foto3" "foto4" "foto5";
+  column-gap: 10px;
+  padding: 5px;
+}
+.nosotros-container > div {
+  text-align: center;
+  padding: 10px;
+  font-family: lato;
+  font-style: italic;
+  font-size: 26px;
+}
+.vivero {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+.foto1 {
+  width: 50%;
+  height: 50%;
+  grid-area: 1 / 4 / span 1 / span 1;
+}
+.foto2 {
+  width: 50%;
+  height: 50%;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+.foto3 {
+  width: 50%;
+  height: 50%;
+  grid-area: 2/ 2 / span 1 / span 1;
+}
+.foto4 {
+  grid-area: 2 / 3 / span 1 / span 1;
+}
+.foto5 {
+  grid-area: 2 / 4 / span 1 / span 1;
 }

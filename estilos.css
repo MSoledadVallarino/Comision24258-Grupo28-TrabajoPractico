@@ -89,7 +89,7 @@ footer {
 
 .tienda::before {
   content: "";
-  background-image: url("./logoVivero.png");
+  background-image: url("./imagenes/logoVivero.png");
   background-size: auto;
   position: absolute;
   top: 0px;
@@ -145,18 +145,17 @@ input[type="submit"] {
 
 .nosotros-container {
   display: grid;
-  justify-content: space-around;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     "vivero vivero vivero" "foto1"
     "foto2" "foto3" "foto4" "foto5";
   column-gap: 10px;
-  padding: 5px;
+  row-gap: 10px;
 }
 .nosotros-container > div {
   text-align: center;
-  padding: 10px;
+
   font-family: lato;
   font-style: italic;
   font-size: 26px;
@@ -165,18 +164,12 @@ input[type="submit"] {
   grid-area: 1 / 1 / span 1 / span 3;
 }
 .foto1 {
-  width: 50%;
-  height: 50%;
   grid-area: 1 / 4 / span 1 / span 1;
 }
 .foto2 {
-  width: 50%;
-  height: 50%;
   grid-area: 2 / 1 / span 1 / span 1;
 }
 .foto3 {
-  width: 50%;
-  height: 50%;
   grid-area: 2/ 2 / span 1 / span 1;
 }
 .foto4 {

@@ -155,10 +155,9 @@ input[type="submit"] {
 }
 .nosotros-container > div {
   text-align: center;
-
   font-family: lato;
   font-style: italic;
-  font-size: 26px;
+  font-size: 20px;
 }
 .vivero {
   grid-area: 1 / 1 / span 1 / span 3;

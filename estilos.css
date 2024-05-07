@@ -189,3 +189,14 @@ input[type="submit"] {
   justify-content: space-between;
 }
 
+.exterior-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "exterior1" "exterior2" "exterior3" 
+                        "exterior4" "exterior5" "exterior6";
+  column-gap: 20px;
+  row-gap: 10px;
+  justify-content: space-around;
+  justify-items: center;
+}

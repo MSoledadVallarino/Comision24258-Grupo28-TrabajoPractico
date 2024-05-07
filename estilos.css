@@ -128,15 +128,18 @@ input[type="submit"] {
   font-style: italic;
 }
 
-.grid-container {
-  display: grid;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   column-gap: 10px;
   padding: 10px;
-  background-color: #8eba8d;
-  grid-template-columns: auto auto auto auto;
+  width: 90%;
+  grid-template-columns:  auto auto auto;
 }
-
+.inicio{
+ background-color: #8eba8d;
+}
 .nosotros-container {
   display: grid;
   grid-template-rows: 1fr;
@@ -175,13 +178,30 @@ input[type="submit"] {
 .interior-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-areas: "interior1" "interior2" "interior3" 
                         "interior4" "interior5" "interior6";
   column-gap: 10px;
   row-gap: 10px;
   justify-content: space-around;
-  justify-items: center;
+}
+.interior1{
+  grid-area: 1 / 1 / span 1 / span 1 ;
+}
+.interior2{
+  grid-area: 1 / 2 / span 1 / span 1 ;
+}
+.interior3{
+  grid-area: 1 / 3 / span 1 / span 1 ;
+}
+.interior4{
+  grid-area: 2 / 1 / span 1 / span 1 ;
+}
+.interior5{
+  grid-area: 2 / 2 / span 1 / span 1 ;
+}
+.interior6{
+  grid-area: 2 / 3 / span 1 / span 1 ;
 }
 .botanico{
   display: flex;

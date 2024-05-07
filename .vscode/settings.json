@@ -1,0 +1,4 @@
+{
+  "prettier.bracketSameLine": false,
+  "editor.defaultFormatter": "TabNine.tabnine-vscode"
+}

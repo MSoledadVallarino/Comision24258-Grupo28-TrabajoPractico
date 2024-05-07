@@ -32,7 +32,6 @@ h4 {
   background-position: center;
   height: 50vh;
 }
-
 #desktop {
   display: flex;
   flex-direction: column;
@@ -41,6 +40,7 @@ h4 {
   width: 100%;
   height: auto;
 }
+
 .navbar {
   font-family: lato-black-italic;
   font-size: 24px;
@@ -91,18 +91,6 @@ select {
   border: 1px;
   background-color: #ae8196;
   cursor: pointer;
-}
-
-.fondoLogo::before{
-  display: flex;
-  background-image: url("./imagenes/logoVivero.png");
-  background-size:cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.2;
 }
 
 #search {
@@ -199,5 +187,5 @@ input[type="submit"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
+

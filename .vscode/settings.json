@@ -1,4 +1,6 @@
 {
   "prettier.bracketSameLine": false,
-  "editor.defaultFormatter": "TabNine.tabnine-vscode"
+  "editor.defaultFormatter": "mohd-akram.vscode-html-format",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }

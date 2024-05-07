@@ -22,6 +22,9 @@ h3 {
 h4 {
   text-align: center;
 }
+.product{
+  text-align: start!important;
+}
 
 .banner {
   background-image: url("./imagenes/pexels-nietjuh-1906439.jpg");
@@ -143,7 +146,7 @@ input[type="submit"] {
   column-gap: 10px;
   padding: 10px;
   background-color: #8eba8d;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 .nosotros-container {
@@ -179,4 +182,22 @@ input[type="submit"] {
 }
 .foto5 {
   grid-area: 2 / 4 / span 1 / span 1;
+}
+
+.interior-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "interior1" "interior2" "interior3" 
+                        "interior4" "interior5" "interior6";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: space-around;
+  justify-items: center;
+}
+.botanico{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }

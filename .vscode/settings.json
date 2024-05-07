@@ -1,6 +1,0 @@
-{
-  "prettier.bracketSameLine": false,
-  "editor.defaultFormatter": "mohd-akram.vscode-html-format",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true
-}

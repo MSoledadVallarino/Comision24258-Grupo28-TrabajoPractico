@@ -54,6 +54,7 @@ h4 {
 .register-background {
   background-color: #9bb98e;
 }
+
 .contacto-background {
   display: grid;
   margin: 0 auto;
@@ -360,7 +361,7 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
 }
-
+/*
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     .exterior1 {
     flex-direction: column;
@@ -413,4 +414,4 @@ input[type="submit"] {
     flex-direction: column;
     width: 60%;
   }
-}
+}*/

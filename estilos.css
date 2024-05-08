@@ -51,9 +51,42 @@ h4 {
   background-color: #d2dfd2;
 }
 
+footer{
+  background-color: #9bb98e;
+}
+.afooter{
+  width:20px;
+  height: 20px;
+
+}
+.animacion{
+  display: flex;
+  width: 600px;
+  height: 450px;
+  margin: 0 20%; 
+  padding: 0px;
+  
+}
+.img-anim{
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.animacion .img-anim:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
 .register-background {
   background: linear-gradient(to top, #9bb98e 50%, #ffffff 50%);
 }
+
 .contacto-background {
   display: grid;
   margin: 0 auto;
@@ -181,7 +214,10 @@ input[type="submit"] {
   grid-template-columns:  auto auto auto;
 }
 .inicio{
- background-color: #8eba8d;
+  background-color: #8eba8d;
+}
+.inicio2{
+  background-color: #8eba8d;
 }
 .nosotros-container {
   display: grid;
@@ -369,7 +405,7 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
 }
-
+/*
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     .exterior1 {
     flex-direction: column;
@@ -422,4 +458,4 @@ input[type="submit"] {
     flex-direction: column;
     width: 60%;
   }
-}
+}*/

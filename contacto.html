@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Plantas de interior</title>
     <link rel="icon" href="./imagenes/logoVivero.png">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet"
@@ -102,22 +103,22 @@
           </ul>
         </div>
       </aside>
-      <form action="#" class="form-register">
+      <form action="#" class="form-register" id="contactForm">
         <h3>CONTÁCTANOS</h3>
 
         <div class="form-group">
           <label>Nombre *</label>
-          <input type="text" id="nombre" name="nombre" required>
+          <input type="text" id="nombre" name="nombre">
         </div>
 
         <div class="form-group">
           <label>Email *</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email">
         </div>
 
         <div class="form-group">
           <label>Telefono *</label>
-          <input type="number" name="telefono" required>
+          <input type="number" name="telefono">
         </div>
 
         <div class="form-group">
@@ -161,17 +162,18 @@
         </div>
         <div class="form-group">
           <label>Asunto *</label>
-          <input type="text" name="asunto" required>
+          <input type="text" name="asunto">
         </div>
         <div class="form-group">
           <label>Mensaje *</label>
         </div>
         <div class="form-group">
-          <textarea name="message" rows="10" cols="40" required></textarea>
+          <textarea name="message" rows="10" cols="40"></textarea>
         </div>
 
         <div>
           <label> * Los datos son obligatorios. </label>
+          <p id="cantidad"></p>
         </div>
 
         <button type="submit" class="btn-contacto">Enviar</button>

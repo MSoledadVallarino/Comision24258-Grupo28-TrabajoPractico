@@ -46,6 +46,11 @@ h4 {
   font-size: 24px;
   background-color: #e1eee1 !important;
 }
+
+.nav-link:hover{
+  background-color: #d2dfd2;
+}
+
 .register-background {
   background-color: #9bb98e;
 }
@@ -78,7 +83,7 @@ h4 {
 .form-group > input,
 select {
   width: auto;
-  padding: 4px;
+  padding: 2px 5px;
   margin: 4px 0;
   border-radius: 15px;
   border: 2px solid black;

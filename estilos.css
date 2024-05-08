@@ -52,7 +52,7 @@ h4 {
 }
 
 .register-background {
-  background-color: #9bb98e;
+  background: linear-gradient(to top, #9bb98e 50%, #ffffff 50%);
 }
 .contacto-background {
   display: grid;
@@ -64,7 +64,7 @@ h4 {
   grid-column-end:3;/*-1 tambien hace referencia al último*/
   /*valor del gap*/
   gap:30px;
-  background-color: #9bb98e;
+  background:linear-gradient(to top, #a16c85 50%, #ffffff 50%);
   font-family: lato;
   font-size: small;
   font-style: italic;
@@ -81,6 +81,15 @@ h4 {
   /*valor del gap*/
   gap:30px;
 }
+.btn-contacto {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px;
+  background-color: #63af42;
+  cursor: pointer;
+}
+
 .register-container {
   display: flex;
   flex-direction: column;
@@ -94,10 +103,10 @@ h4 {
 .form-register {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #f2f5f2;
   border-radius: 8px;
   padding: 10px;
-  border: black solid 2px;
+  border: rgb(199, 199, 199) solid 1px;
   width: 2fr;
   padding: 10px;
   margin: 10px;
@@ -112,9 +121,9 @@ select {
   width: auto;
   padding: 2px 5px;
   margin: 4px 0;
-  border-radius: 15px;
-  border: 2px solid black;
-  background-color: whitesmoke;
+  border-radius: 8px;
+  border: 1px solid #a16c85;
+  background-color: #ffffff;
   height: 3.5vh;
 }
 

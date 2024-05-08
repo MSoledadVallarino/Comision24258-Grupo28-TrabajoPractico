@@ -52,8 +52,123 @@
       </div>
     </nav>
     </header>
-    <main>
+    <main class="contacto-background">
+      <aside class="aside-contacto">        
+        <div><h2>Ubicación</h2>
+        <ul>
+          <label>Islas Malvinas 678. Toay, La Pampa, Argentina.</label><br>
+          <label>CP(L6303)</label><br>
+          <label>+54 9 2954 21346587</label><br>
+        </ul>
+      </div>
+      <div>
+        <h2>Síguenos</h2>
+        <ul>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/logo_instagram.png"
+              alt="logo"
+              width="60"
+              height="60">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/logo_facebook.png"
+              alt="logo"
+              width="60"
+              height="60">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/logo_twitter.png"
+              alt="logo"
+              width="60"
+              height="60">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/logo_google.png"
+              alt="logo"
+              width="60"
+              height="60">
+          </a>
+        </ul>
+        </div>
+      </aside>
+      <form action="#" class="form-register">
+        <h3>CONTÁCTANOS</h3>
 
+        <div class="form-group">
+          <label>Nombre *</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Telefono *</label>
+          <input type="number" name="telefono" required>
+        </div>
+  
+        <div class="form-group">
+          <label>Provincia</label>
+          <select>
+            <option>Seleccione...</option>
+            <option>Ciudad Autonoma de Buenos Aires</option>
+            <option>Buenos Aires</option>
+            <option>Catamarca</option>
+            <option>Chaco</option>
+            <option>Chubut</option>
+            <option>Cordoba</option>
+            <option>Corrientes</option>
+            <option>Entre Rios</option>
+            <option>Formosa</option>
+            <option>Jujuy</option>
+            <option>La Pampa</option>
+            <option>La Rioja</option>
+            <option>Mendoza</option>
+            <option>Misiones</option>
+            <option>Neuquen</option>
+            <option>Rio Negro</option>
+            <option>Salta</option>
+            <option>San Juan</option>
+            <option>San Luis</option>
+            <option>Santa Cruz</option>
+            <option>Santa Fe</option>
+            <option>Santiago del Estero</option>
+            <option>Tierra del Fuego</option>
+            <option>Tucuman</option>
+          </select>
+        </div>
+
+        <div class="form-radiogroup">    
+          <label>Género:</label><br>
+          <input type="radio" name="genero" value="0" > <label>Femenino</label> <br>
+          <input type="radio" name="genero" value="1" > Masculino <br>
+          <input type="radio" name="genero" value="2"> Otro <br>
+             
+        </div>
+        <div class="form-group">
+          <label>Asunto *</label>
+          <input type="text" name="asunto" required>
+        </div>
+        <div class="form-group">
+          <label>Mensaje *</label>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="10" cols="40" required></textarea>
+        </div>
+
+        <div>
+          <label> * Los datos son obligatorios. </label>
+        </div>
+
+        <button type="submit" class="btn-registro">Enviar</button>
+
+      </form>
     </main>
         
     </body>

@@ -46,8 +46,40 @@ h4 {
   font-size: 24px;
   background-color: #e1eee1 !important;
 }
+
+.nav-link:hover{
+  background-color: #d2dfd2;
+}
+
 .register-background {
   background-color: #9bb98e;
+}
+.contacto-background {
+  display: grid;
+  margin: 0 auto;
+  /*division en columnas*/
+  grid-template-columns: repeat(3, 1fr);
+  /*cuantas columnas ocupa el padre?*/
+  grid-column-start:1;
+  grid-column-end:3;/*-1 tambien hace referencia al último*/
+  /*valor del gap*/
+  gap:30px;
+  background-color: #9bb98e;
+  font-family: lato;
+  font-size: small;
+  font-style: italic;
+}
+.aside-contacto {
+  /*margin: 60px 20px;*/
+  display: grid;
+  margin: 0 auto;
+  /*division en columnas*/
+  grid-template-rows: repeat(2, 1fr);
+  /*cuantas columnas ocupa el padre?*/
+  grid-row-start:1;
+  grid-row-end:2;/*-1 tambien hace referencia al último*/
+  /*valor del gap*/
+  gap:30px;
 }
 .register-container {
   display: flex;
@@ -78,7 +110,7 @@ h4 {
 .form-group > input,
 select {
   width: auto;
-  padding: 4px;
+  padding: 2px 5px;
   margin: 4px 0;
   border-radius: 15px;
   border: 2px solid black;

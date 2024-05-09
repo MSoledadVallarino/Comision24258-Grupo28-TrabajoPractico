@@ -57,15 +57,15 @@ footer{
 
 .animacion{
   display: flex;
-  width: 600px;
+  width: auto;
   height: 450px;
-  margin: 0 20%; 
+  margin: 10% 20%; 
   padding: 0px;
   
 }
 .img-anim{
   width: 0;
-  flex-grow: 1;
+  flex-grow: 0.9;
   object-fit: cover;
   opacity: .8;
   transition: .5s ease;
@@ -210,11 +210,10 @@ input[type="submit"] {
   grid-template-columns:  auto auto auto;
 }
 .inicio{
-  background-color: #8eba8d;
+  background: linear-gradient(to top, #9bb98e 50%, #ffffff 50%);
+ /* background-color: #8eba8d;*/
 }
-.inicio2{
-  background-color: #8eba8d;
-}
+
 .nosotros-container {
   display: grid;
   grid-template-rows: 1fr;
@@ -251,15 +250,6 @@ input[type="submit"] {
 }
 
 .interior-container {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "interior1" "interior2" "interior3" 
-                        "interior4" "interior5" "interior6";
-  column-gap: auto;
-  row-gap: 4%;
-  justify-content: space-around;
-  margin: 2%; */
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;  
@@ -305,15 +295,6 @@ input[type="submit"] {
 }
 
 .insumos-container {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "insumos1" "insumos2" "insumos3" 
-                        "insumos4" "insumos" "insumos";
-  column-gap: auto;
-  row-gap: 4%;                     
-  justify-content:space-around;
-  margin: 2%;*/
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;  
@@ -354,15 +335,6 @@ input[type="submit"] {
 }
 
 .exterior-container {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "exterior1" "exterior2" "exterior3" 
-                        "exterior4" "exterior5" "exterior6";
-  column-gap: auto;
-  row-gap: 4%;
-  justify-content: space-around;
-  margin: 2%; */
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;  
@@ -401,57 +373,3 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
 }
-/*
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    .exterior1 {
-    flex-direction: column;
-    width: 70%;
-  }
-  .exterior2 {
-    flex-direction: column;
-    width: 70%;
-  }
-  .exterior3 {
-    flex-direction: column;
-    width: 70%;
-  }
-  .exterior4 {
-    flex-direction: column;
-    width: 70%;
-  }
-  .exterior5 {
-    flex-direction: column;
-    width: 70%;
-  }
-  .exterior6 {
-    flex-direction: column;
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .exterior1 {
-    flex-direction: column;
-    width: 60%;
-  }
-  .exterior2 {
-    flex-direction: column;
-    width: 60%;
-  }
-  .exterior3 {
-    flex-direction: column;
-    width: 60%;
-  }
-  .exterior4 {
-    flex-direction: column;
-    width: 60%;
-  }
-  .exterior5 {
-    flex-direction: column;
-    width: 60%;
-  }
-  .exterior6 {
-    flex-direction: column;
-    width: 60%;
-  }
-}*/

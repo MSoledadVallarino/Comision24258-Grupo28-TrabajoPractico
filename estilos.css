@@ -119,7 +119,14 @@ footer{
   background-color: #63af42;
   cursor: pointer;
 }
-
+.btn-login {
+  padding: 6px 10px;
+  margin: 6px 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: #9bb98e;
+  cursor: pointer;
+}
 .register-container {
   display: flex;
   flex-direction: column;

@@ -9,9 +9,10 @@ h1 {
 h2 {
   text-align: center;
   padding: 0.5%;
-  font-family: lato-black;
+  font-family: lato;
   font-style: italic;
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 48px;
 }
 h3 {
   font-family: lato;

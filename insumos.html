@@ -52,12 +52,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registro.html">Registro</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ingresar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item"
+                      href="registro.html">Registrarse</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" id="abrirModal">Iniciar
+                      sesión</a></li>
+                </ul>
               </li>
             </ul>
-            <button class="btn-login" id="abrirModal"
-              type="submit">Ingresar</button>
             <!-- Ventana modal, por defecto no visiblel -->
 
             <div id="myModal" class="modal">
@@ -68,8 +77,9 @@
                 </div>
                 <div class="modal-body">
                   <input type="email" placeholder="Email" name="email">
-                  <input type="password" placeholder="Password" name="password">
-                  <button type="submit">Ingresar</button>
+                  <input type="password" placeholder="Password"
+                    name="password">
+                  <button type="submit" class="login">Ingresar</button>
                 </div>
               </div>
             </div>

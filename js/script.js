@@ -5,10 +5,10 @@ contactForm.addEventListener("submit", (e) => {
   const ele = document.forms["contactForm"];
   let datosCompletos = true;
   // Obtiene el modal
-  var modal = document.getElementById("contactModal");
+  let modal = document.getElementById("contactModal");
 
   // Obtiene <span> elemento que cierra el modal
-  var span = document.getElementsByClassName("close")[1];
+  let span = document.getElementsByClassName("close")[1];
 
   // Cuando hace click en <span> (x), close the modal
   span.onclick = function () {

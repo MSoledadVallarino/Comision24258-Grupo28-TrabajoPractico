@@ -51,12 +51,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="registro.html">Registro</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ingresar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item"
+                      href="registro.html">Registrarse</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" id="abrirModal">Iniciar
+                      sesión</a></li>
+                </ul>
               </li>
             </ul>
-            <button class="btn-login" id="abrirModal"
-              type="submit">Ingresar</button>
             <!-- Ventana modal, por defecto no visiblel -->
 
             <div id="myModal" class="modal">
@@ -67,8 +76,9 @@
                 </div>
                 <div class="modal-body">
                   <input type="email" placeholder="Email" name="email">
-                  <input type="password" placeholder="Password" name="password">
-                  <button type="submit">Ingresar</button>
+                  <input type="password" placeholder="Password"
+                    name="password">
+                  <button type="submit" class="login">Ingresar</button>
                 </div>
               </div>
             </div>
@@ -110,17 +120,17 @@
               <option>Catamarca</option>
               <option>Chaco</option>
               <option>Chubut</option>
-              <option>Cordoba</option>
+              <option>Córdoba</option>
               <option>Corrientes</option>
-              <option>Entre Rios</option>
+              <option>Entre Ríos</option>
               <option>Formosa</option>
               <option>Jujuy</option>
               <option>La Pampa</option>
               <option>La Rioja</option>
               <option>Mendoza</option>
               <option>Misiones</option>
-              <option>Neuquen</option>
-              <option>Rio Negro</option>
+              <option>Neuquén</option>
+              <option>Río Negro</option>
               <option>Salta</option>
               <option>San Juan</option>
               <option>San Luis</option>
@@ -128,7 +138,7 @@
               <option>Santa Fe</option>
               <option>Santiago del Estero</option>
               <option>Tierra del Fuego</option>
-              <option>Tucuman</option>
+              <option>Tucumán</option>
             </select>
           </div>
 

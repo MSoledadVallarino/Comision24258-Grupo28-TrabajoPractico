@@ -60,14 +60,22 @@
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registro.html">Registro</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ingresar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item"
+                      href="registro.html">Registrarse</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" id="abrirModal">Iniciar
+                      sesión</a></li>
+                </ul>
               </li>
             </ul>
-            <button class="btn-login" id="abrirModal"
-              type="submit">Ingresar</button>
             <!-- Ventana modal, por defecto no visiblel -->
-
             <div id="myModal" class="modal">
               <div class="modal-content">
                 <div class="modal-header">
@@ -76,12 +84,12 @@
                 </div>
                 <div class="modal-body">
                   <input type="email" placeholder="Email" name="email">
-                  <input type="password" placeholder="Password" name="password">
-                  <button type="submit">Ingresar</button>
+                  <input type="password" placeholder="Password"
+                    name="password">
+                  <button type="submit" class="login">Ingresar</button>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </nav>
@@ -92,8 +100,10 @@
         <h1>Vivero Jade, tu mundo botánico</h1>
         <h3>
           ¡Nos encanta la naturaleza y esta es nuestra manera de llevarla con
-          nosotros y acercarla a vos! En nuestro vivero vas a encontrar todo lo
-          que estas buscando para saltar al mundo botánico y poder cuidarlo con
+          nosotros y acercarla a vos! En nuestro vivero vas a encontrar todo
+          lo
+          que estas buscando para saltar al mundo botánico y poder cuidarlo
+          con
           los mejores accesorios. ¿Empezamos?
         </h3>
       </div>
@@ -116,7 +126,8 @@
                   Contamos con una amplia variedad para llenar de verde tu
                   hogar.
                 </p>
-                <a href="plantasDeInterior.html" class="btn btn-primary">Plantas
+                <a href="plantasDeInterior.html"
+                  class="btn btn-primary">Plantas
                   de interior</a>
               </div>
             </div>
@@ -133,7 +144,8 @@
                 <p class="card-text">
                   Los mejores ejemplares para alegrar tu jardin y tu patio.
                 </p>
-                <a href="plantasDeExterior.html" class="btn btn-primary">Plantas
+                <a href="plantasDeExterior.html"
+                  class="btn btn-primary">Plantas
                   de exterior</a>
               </div>
             </div>
@@ -175,7 +187,6 @@
     <script src="./js/modal.js"></script>
     <footer>
       <div class="footer">
-        <a href="contacto.html"><h3>Contactanos</h3></a>
         <img
           src="./imagenes/logoVivero.png"
           alt="logo"

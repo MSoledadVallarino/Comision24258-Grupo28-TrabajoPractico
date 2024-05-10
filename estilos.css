@@ -462,6 +462,9 @@ select {
   right: 0;
   margin: 10px;
 }
+#abrirModal{
+  cursor:pointer;
+}
     .footer {
       padding: 8px;
       background: #ffffff;

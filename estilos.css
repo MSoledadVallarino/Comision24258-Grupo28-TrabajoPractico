@@ -406,6 +406,16 @@ select {
   font-size: 16px;
 }
 
+.modal-body>input
+ {
+  width: auto;
+  padding: 2px 5px;
+  margin: 4px 0;
+  border-radius: 8px;
+  border: 1px solid #a16c85;
+  background-color: #ffffff;
+  height: 3.5vh;
+}
 /* Estilos para el elemento con la clase "modal-footer" */
 .modal-footer {
   display: flex;

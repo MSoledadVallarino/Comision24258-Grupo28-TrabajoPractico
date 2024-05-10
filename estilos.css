@@ -372,3 +372,10 @@ select {
         right: 0;
         margin: 10px;
     }
+
+    .footer {
+      padding: 8px;
+      background: #ffffff;
+      text-align: center;
+    }
+    

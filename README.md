@@ -42,4 +42,4 @@ Incluir
 ### Autores 
 Maria Soledad Vallarino
 Agustina Soledad Romero
-Julia Carolina Gigena
+Julia Carola Gigena

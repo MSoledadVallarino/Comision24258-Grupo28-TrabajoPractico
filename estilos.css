@@ -385,7 +385,6 @@ select {
     opacity: 0
   }
 
-<<<<<<< HEAD
   to {
     top: 0px;
     opacity: 1
@@ -432,7 +431,6 @@ select {
   right: 0;
   margin: 10px;
 }
-=======
     /* Estilos para el botón con la clase "close" */
     .close {
         font-size: 28px;
@@ -453,5 +451,3 @@ select {
       background: #ffffff;
       text-align: center;
     }
-    
->>>>>>> e16dd244bb35b9997e975f365455b1206cb25a7c

@@ -8,7 +8,7 @@ registerForm.addEventListener("submit", (e) => {
     let modal = document.getElementById("modalRegister");
 
   // Obtiene <span> elemento que cierra el modal
-    let span = document.getElementsByClassName("close");
+    let span = document.getElementById("closeRegister");
 
   // Cuando hace click en <span> (x), close the modal
     span.onclick = function () {
@@ -31,7 +31,8 @@ registerForm.addEventListener("submit", (e) => {
     }
     }
     if (datosCompletos) {
-    $('#idHeaders').text(`${nombre.value}`);
+      
+    $('#idHeaders').text(`${nombre.value}`+` `+`${apellido.value}`);
     modal.style.display = "block";
     document.getElementById("registerForm").reset();
     }

@@ -1,7 +1,7 @@
 ## VIVERO JADE
 
 Este proyecto es un examen integrador del curso Codo a Codo - JS-FRONT END 2024, en el cual haremos la página web de un vivero.
-La web Vivero Jade incluye 8 secciones en las que se encuentran: inicio, nosotros, plantas de interior, plantas de exterior, insumos, tienda online, registro y contacto. 
+La web Vivero Jade incluye 7 secciones en las que se encuentran: inicio, nosotros, plantas de interior, plantas de exterior, insumos, registro y contacto. 
 En cada una de ellas el usuario encontrará información útil y necesaria para interactuar con el negocio.
 Creamos una interfaz moderna y acorde a los fundamentos de la marca. 
 El objetivo fue la buena interacción con el usuario, que este pueda encontrar fácilmente la información 
@@ -40,6 +40,7 @@ git pull para descargar actualizaciones
 Incluir
 #
 ### Autores 
-Maria Soledad Vallarino
-Agustina Soledad Romero
-Julia Carola Gigena
+<ul>
+<li>Maria Soledad Vallarino</li>
+<li>Agustina Soledad Romero</li>
+<li>Julia Carola Gigena</li>
